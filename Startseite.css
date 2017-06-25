@@ -1,0 +1,99 @@
+* body{
+margin:0;
+-ms-user-select:none;
+}
+a{
+text-decoration:none;
+color: black;}
+.toprand{
+position:absolute;
+top:0;
+width:100%;
+height:5px;
+background-color:#0EDEED;
+
+}
+
+.bottomrand{
+position:absolute;
+bottom:0;
+width:100%;
+height:5px;
+background-color:#0EDEED
+}
+
+.toolbar{
+position:absolute;
+top:5px;
+background-color:lightgray;
+width:100%;
+height:60px;
+}
+
+.start {
+
+position:absolute;
+width:90px;
+height:30px;
+top:20px;
+left:50px;
+}
+.startbox{
+position:absolute;
+top:15px;
+left:30px;
+width:100px;
+height:30px;
+background-color:#0BEEEE;
+border-radius:20px;
+}
+.clickfeld{
+cursor:pointer;
+position:absolute;
+top:15px;
+left:30px;
+width:100px;
+height:30px;
+}
+.youtube{
+position:fixed;
+bottom: 7px;
+right : 8px;
+}
+
+.twitter{
+	position: fixed;
+	bottom: 7px;
+	right:63px;
+}
+
+.facebook{
+position: fixed;
+bottom : 7px;
+right:118px;
+}
+
+.twitch{
+position : fixed;
+bottom: 7px;
+right: 173px;
+}
+
+.groesse{
+width :50px;
+height:50px;
+}
+
+.sozial{
+	position: fixed;
+	bottom:0;
+	right:0;
+	width: 220px;
+	height:55px;
+	background-color: lightgray;
+	border-width: 6px;
+	border-style: solid;
+	border-color: gray;
+	border-right-color: black;
+	border-bottom-color: black;
+}
